@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+	<title>App Estimator</title>
+</head>
+<body style="overflow-x: hidden">
+	<section>
+      <div class="row">
+        <div class="col-md-7">
+          <h1 style = "font-size: 3em; margin-top: 30%; margin-bottom: 5px;"><strong>Estimate</strong> My App</h1>
+		  <p style = "font-size: 1.3em;  margin: 0px 50px">Select options in the <strong>Estimator</strong> which best describes your app and the features you require.</p>
+          <div class="hidden-lg hidden-md arrow bounce"></div>
+        </div>
+        <div class="col-lg-4 col-md-5" style = "padding-top: 5%">
+          <form class="pure-steps">
+            <input type="radio" name="steps" class="pure-steps_radio" id="step-0" checked="">
+            <input type="radio" name="steps" class="pure-steps_radio" id="step-1">
+            <input type="radio" name="steps" class="pure-steps_radio" id="step-2">
+            <input type="radio" name="steps" class="pure-steps_radio" id="step-3">
+            <input type="radio" name="steps" class="pure-steps_radio" id="step-4">
+            <input type="radio" name="steps" class="pure-steps_radio" id="step-5">
+            <input type="radio" name="steps" class="pure-steps_radio" id="step-6">
+            <input type="radio" name="steps" class="pure-steps_radio" id="step-7">
+            <input type="radio" name="steps" class="pure-steps_radio" id="step-8">
+            <input type="radio" name="steps" class="pure-steps_radio" id="step-9">
+            <input type="radio" name="steps" class="pure-steps_radio" id="step-10">
+            <input type="radio" name="steps" class="pure-steps_radio" id="step-11">
+            <input type="radio" name="steps" class="pure-steps_radio" id="step-12">
+            <div class="pure-steps_group">
+              <ol>
+                <li class="pure-steps_group-step">
+                  <header>
+                    <h2 class="pure-steps_group-step_legend">Hello There,</h2>
+                    <p class="pure-steps_group-step_item">Hit the <strong>Lets GO</strong> button to get started with the estimator. At each step select suitable option(s) then hit <strong>Next</strong> button</p>
+                  </header>
+                </li>
+                <li class="pure-steps_group-step">
+                  <header>
+                    <h2 class="pure-steps_group-step_legend">Platform</h2>
+                    <p class="pure-steps_group-step_item">What is the platform of your app?</p>
+                    <br>
+                    <div class="row">
+                      <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="radio" name = "platform">
+                          <div class="state" >
+                              <label><i class="fa fa-desktop" aria-hidden="true"></i> WebApp</label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="radio" name = "platform">
+                          <div class="state" >
+                              <label><i class="fa fa-apple" aria-hidden="true"></i> iOS</label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="radio" name = "platform">
+                          <div class="state" >
+                              <label><i class="fa fa-android" aria-hidden="true"></i> Android</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </header>
+                </li>
+                <li class="pure-steps_group-step">
+                  <header>
+                    <h2 class="pure-steps_group-step_legend">Size</h2>
+                    <p class="pure-steps_group-step_item">How big is your app?</p>
+                  </header>
+                </li>
+                 <li class="pure-steps_group-step">
+                  <header>
+                    <h2 class="pure-steps_group-step_legend">UI Level</h2>
+                    <p class="pure-steps_group-step_item">What level of UI would you like?</p>
+                  </header>
+                </li>
+                 <li class="pure-steps_group-step">
+                  <header>
+                    <h2 class="pure-steps_group-step_legend">Platform</h2>
+                    <p class="pure-steps_group-step_item">What is the platform of your app?</p>
+                  </header>
+                </li>
+                 <li class="pure-steps_group-step">
+                  <header>
+                    <h2 class="pure-steps_group-step_legend">Platform</h2>
+                    <p class="pure-steps_group-step_item">What is the platform of your app?</p>
+                  </header>
+                </li>
+                 <li class="pure-steps_group-step">
+                  <header>
+                    <h2 class="pure-steps_group-step_legend">Platform</h2>
+                    <p class="pure-steps_group-step_item">What is the platform of your app?</p>
+                  </header>
+                </li>
+                 <li class="pure-steps_group-step">
+                  <header>
+                    <h2 class="pure-steps_group-step_legend">Billing and eCommerce</h2>
+                    <p class="pure-steps_group-step_item">Which Billing and eCommerce service do you want?</p>
+                    <div class="row">
+                      <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox" />
+                          <div class="state" >
+                              <label><i class="fa fa-file-text" aria-hidden="true"></i> Subscription plans </label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox" />
+                          <div class="state" >
+                              <label><i class="fa fa-credit-card" aria-hidden="true"></i> Payment processing</label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox">
+                          <div class="state" >
+                              <label><i class="fa fa-shopping-cart" aria-hidden="true"> </i> Shopping Cart</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox">
+                          <div class="state" >
+                              <label><i class="fa fa-handshake-o" aria-hidden="true"> </i> User Marketplace</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox">
+                          <div class="state" >
+                              <label><i class="fa fa-hourglass" aria-hidden="true"> </i> Product Management</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </header>
+                </li>
+                 <li class="pure-steps_group-step">
+                  <header>
+                    <h2 class="pure-steps_group-step_legend">Platform</h2>
+                    <p class="pure-steps_group-step_item">What is the platform of your app?</p>
+                  </header>
+                </li>
+                 <li class="pure-steps_group-step">
+                  <header>
+                    <h2 class="pure-steps_group-step_legend">Platform</h2>
+                    <p class="pure-steps_group-step_item">What is the platform of your app?</p>
+                  </header>
+                </li>
+                 <li class="pure-steps_group-step">
+                  <header>
+                    <h2 class="pure-steps_group-step_legend">Platform</h2>
+                    <p class="pure-steps_group-step_item">What is the platform of your app?</p>
+                  </header>
+                </li>
+                <li class="pure-steps_group-step flexy-item">
+                  <header>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h2 class="pure-steps_group-step_legend">Estimation Done!</h2>
+                    <p class="pure-steps_group-step_item"><strong>Estimated</strong> cost is </p>
+                    <h3  class="pure-steps_group-step_legend"> <strong>$450</strong></h3>
+                    <br>
+                    <label for="step-0" style="color: #444"><button class="btn btn-default"> <i class="fa fa-refresh" aria-hidden="true"></i> Estimate Again </button></label>
+                  </header>
+                </li>
+              </ol>
+              <ol class="pure-steps_group-triggers">
+                <li class="pure-steps_group-triggers_item">
+                  <label for="step-0"></label>
+                </li>
+                <li class="pure-steps_group-triggers_item">
+                  <label for="step-1">Lets GO</label>
+                </li>
+                <li class="pure-steps_group-triggers_item">
+                  <label for="step-2">Next</label>
+                </li>
+                <li class="pure-steps_group-triggers_item">
+                  <label for="step-3">Next</label>
+                </li>
+                <li class="pure-steps_group-triggers_item">
+                  <label for="step-4">Next</label>
+                </li>
+                <li class="pure-steps_group-triggers_item">
+                  <label for="step-5">Next</label>
+                </li>
+                <li class="pure-steps_group-triggers_item">
+                  <label for="step-6">Next</label>
+                </li>
+                <li class="pure-steps_group-triggers_item">
+                  <label for="step-7">Next</label>
+                </li>
+                <li class="pure-steps_group-triggers_item">
+                  <label for="step-8">Next</label>
+                </li>
+                <li class="pure-steps_group-triggers_item">
+                  <label for="step-9">Next</label>
+                </li>
+                <li class="pure-steps_group-triggers_item">
+                  <label for="step-10">Next</label>
+                </li>
+                <li class="pure-steps_group-triggers_item">
+                  <label for="step-11">Estimate</label>
+                </li>
+              </ol>
+            </div>
+            <br>
+          </form>
+        </div>
+      </div>
+	</section>
+</body>
+</html>
