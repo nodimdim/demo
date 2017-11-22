@@ -136,7 +136,7 @@ article header {
 }
 .pure-steps .pure-steps_group {
   position: relative;
-  min-height: 30em; /* here */
+  min-height: 33.5em; /* here */
   border-radius: .4em;
   overflow: hidden;
   box-shadow: 0 1.7em 5.5em -0.94em rgba(0, 0, 0, 0.3), 0 2em 3em 0.5em rgba(0, 0, 0, 0.1), 0 1.8em 2em -1.5em rgba(0, 0, 0, 0.2);

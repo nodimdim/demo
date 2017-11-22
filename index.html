@@ -18,7 +18,7 @@
 		  <p style = "font-size: 1.3em;  margin: 0px 50px">Select options in the <strong>Estimator</strong> which best describes your app and the features you require.</p>
           <div class="hidden-lg hidden-md arrow bounce"></div>
         </div>
-        <div class="col-lg-4 col-md-5" style = "padding-top: 5%">
+        <div class="col-lg-4 col-md-5" style = "padding-top: 3%">
           <form class="pure-steps">
             <input type="radio" name="steps" class="pure-steps_radio" id="step-0" checked="">
             <input type="radio" name="steps" class="pure-steps_radio" id="step-1">
@@ -43,13 +43,13 @@
                 </li>
                 <li class="pure-steps_group-step">
                   <header>
-                    <h2 class="pure-steps_group-step_legend">Platform</h2>
+                    <h2 class="pure-steps_group-step_legend">1. Platform</h2>
                     <p class="pure-steps_group-step_item">What is the platform of your app?</p>
                     <br>
                     <div class="row">
                       <div class="col-lg-offset-2 col-lg-8 option-box">
                         <div class="pretty p-default p-round">
-                          <input type="radio" name = "platform">
+                          <input type="radio" name = "platform" value = >
                           <div class="state" >
                               <label><i class="fa fa-desktop" aria-hidden="true"></i> WebApp</label>
                           </div>
@@ -76,42 +76,249 @@
                 </li>
                 <li class="pure-steps_group-step">
                   <header>
-                    <h2 class="pure-steps_group-step_legend">Size</h2>
+                    <h2 class="pure-steps_group-step_legend">2. Size</h2>
                     <p class="pure-steps_group-step_item">How big is your app?</p>
+                    <br>
+                    <div class="row">
+                      <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="radio" name = "size" >
+                          <div class="state" >
+                              <label><i class="fa" aria-hidden="true"><span style="font-weight:bold">S</span></i> Small</label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="radio" name = "size">
+                          <div class="state" >
+                            <label><i class="fa fa-medium" aria-hidden="true"></i> Medium</label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="radio" name = "size">
+                          <div class="state" >
+                            <label><i class="fa" aria-hidden="true"><span style="font-weight:bold">L</span></i> Large</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </header>
                 </li>
                  <li class="pure-steps_group-step">
                   <header>
-                    <h2 class="pure-steps_group-step_legend">UI Level</h2>
+                    <h2 class="pure-steps_group-step_legend">3. UI Level</h2>
                     <p class="pure-steps_group-step_item">What level of UI would you like?</p>
+                    <br>
+                    <div class="row">
+                      <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="radio" name = "ui" >
+                          <div class="state" >
+                              <label><i class="fa fa-check" aria-hidden="true"></i> MVP</label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="radio" name = "ui">
+                          <div class="state" >
+                              <label><i class="fa fa-thumbs-up" aria-hidden="true"></i> Basic</label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="radio" name = "ui">
+                          <div class="state" >
+                              <label><i class="fa fa-heart" aria-hidden="true"></i> Polished</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </header>
                 </li>
                  <li class="pure-steps_group-step">
                   <header>
-                    <h2 class="pure-steps_group-step_legend">Platform</h2>
-                    <p class="pure-steps_group-step_item">What is the platform of your app?</p>
+                    <h2 class="pure-steps_group-step_legend">4. Users and Accounts</h2>
+                    <p class="pure-steps_group-step_item">Which User Accounts authendication do you want? You can choose multiple or none.</p>
+                    <br>
+                    <div class="row">
+                      <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox" name = "user" >
+                          <div class="state" >
+                              <label><i class="fa fa-envelope" aria-hidden="true"></i> Email / Password Sign Up </label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox" name = "user">
+                          <div class="state" >
+                              <label><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox" name = "user">
+                          <div class="state" >
+                              <label><i class="fa fa-twitter" aria-hidden="true"></i> Twitter </label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox" name = "user">
+                          <div class="state" >
+                              <label><i class="fa fa-google" aria-hidden="true"></i> Google </label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox" name = "user">
+                          <div class="state" >
+                              <label><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox" name = "user">
+                          <div class="state" >
+                              <label><i class="fa fa-github" aria-hidden="true"></i> Github </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </header>
                 </li>
                  <li class="pure-steps_group-step">
                   <header>
-                    <h2 class="pure-steps_group-step_legend">Platform</h2>
-                    <p class="pure-steps_group-step_item">What is the platform of your app?</p>
+                    <h2 class="pure-steps_group-step_legend">5. User Generated Content</h2>
+                    <p class="pure-steps_group-step_item">What User Generated Content do you want in your app? You can choose multiple or none</p>
+                    <br>
+                    <div class="row">
+                      <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox" name = "content" >
+                          <div class="state" >
+                              <label><i class="fa fa-feed" aria-hidden="true"></i> Activity Feed </label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox" name = "content">
+                          <div class="state" >
+                              <label><i class="fa fa-upload" aria-hidden="true"></i> Media Uploading</label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox" name = "content">
+                          <div class="state" >
+                              <label><i class="fa fa-user" aria-hidden="true"></i> User Profiles </label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox" name = "content">
+                          <div class="state" >
+                              <label><i class="fa fa-tag" aria-hidden="true"></i> Tags </label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox" name = "content">
+                          <div class="state" >
+                              <label><i class="fa fa-star-half-full" aria-hidden="true"></i> Ratings and Reviews</label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox" name = "content">
+                          <div class="state" >
+                              <label><i class="fa fa-commenting" aria-hidden="true"></i> Media Manipulation </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox" name = "content">
+                          <div class="state" >
+                              <label><i class="fa fa-search" aria-hidden="true"></i> Searching </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </header>
                 </li>
                  <li class="pure-steps_group-step">
                   <header>
-                    <h2 class="pure-steps_group-step_legend">Platform</h2>
-                    <p class="pure-steps_group-step_item">What is the platform of your app?</p>
+                    <h2 class="pure-steps_group-step_legend">6. Mobile specific features</h2>
+                    <p class="pure-steps_group-step_item">What Mobile specific features do you want for your app?  You can choose multiple or none</p>
+                    <br>
+                    <div class="row">
+                      <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox" name = "feature" >
+                          <div class="state" >
+                              <label><i class="fa fa-diamond" aria-hidden="true"></i> App Icon Design </label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox" name = "feature">
+                          <div class="state" >
+                              <label><i class="fa fa-cloud" aria-hidden="true"></i> Cloud Syncing</label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox" name = "feature">
+                          <div class="state" >
+                              <label><i class="fa fa-mobile-phone" aria-hidden="true"></i> Device Sensor Data </label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox" name = "feature">
+                          <div class="state" >
+                              <label><i class="fa fa-qrcode" aria-hidden="true"></i> Barcodes or QR Codes </label>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-lg-offset-2 col-lg-8 option-box">
+                        <div class="pretty p-default p-round">
+                          <input type="checkbox" name = "feature">
+                          <div class="state" >
+                              <label><i class="fa fa-heartbeat" aria-hidden="true"></i> Health Data</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </header>
                 </li>
                  <li class="pure-steps_group-step">
                   <header>
-                    <h2 class="pure-steps_group-step_legend">Billing and eCommerce</h2>
+                    <h2 class="pure-steps_group-step_legend">7. Billing and eCommerce</h2>
                     <p class="pure-steps_group-step_item">Which Billing and eCommerce service do you want?</p>
                     <div class="row">
                       <div class="col-lg-offset-2 col-lg-8 option-box">
                         <div class="pretty p-default p-round">
-                          <input type="checkbox" />
+                          <input type="checkbox" name = "bill">
                           <div class="state" >
                               <label><i class="fa fa-file-text" aria-hidden="true"></i> Subscription plans </label>
                           </div>
@@ -119,7 +326,7 @@
                       </div>
                        <div class="col-lg-offset-2 col-lg-8 option-box">
                         <div class="pretty p-default p-round">
-                          <input type="checkbox" />
+                          <input type="checkbox" name = "bill">
                           <div class="state" >
                               <label><i class="fa fa-credit-card" aria-hidden="true"></i> Payment processing</label>
                           </div>
@@ -127,7 +334,7 @@
                       </div>
                        <div class="col-lg-offset-2 col-lg-8 option-box">
                         <div class="pretty p-default p-round">
-                          <input type="checkbox">
+                          <input type="checkbox" name = "bill">
                           <div class="state" >
                               <label><i class="fa fa-shopping-cart" aria-hidden="true"> </i> Shopping Cart</label>
                           </div>
@@ -135,7 +342,7 @@
                       </div>
                       <div class="col-lg-offset-2 col-lg-8 option-box">
                         <div class="pretty p-default p-round">
-                          <input type="checkbox">
+                          <input type="checkbox" name = "bill">
                           <div class="state" >
                               <label><i class="fa fa-handshake-o" aria-hidden="true"> </i> User Marketplace</label>
                           </div>
@@ -143,7 +350,7 @@
                       </div>
                       <div class="col-lg-offset-2 col-lg-8 option-box">
                         <div class="pretty p-default p-round">
-                          <input type="checkbox">
+                          <input type="checkbox" name = "bill">
                           <div class="state" >
                               <label><i class="fa fa-hourglass" aria-hidden="true"> </i> Product Management</label>
                           </div>
