@@ -214,7 +214,7 @@ article header {
   color: rgba(255, 255, 255, 0.6);
 }
 .pure-steps .pure-steps_group .pure-steps_group-step .pure-steps_group-step_item input::-moz-placeholder {
-  /* Firefox 19+ */
+   /* Firefox 19+ */
   color: rgba(255, 255, 255, 0.6);
 }
 .pure-steps .pure-steps_group .pure-steps_group-step .pure-steps_group-step_item input:-ms-input-placeholder {
@@ -599,6 +599,6 @@ pure-steps .pure-steps_radio:nth-child(12):checked ~ .pure-steps_group {
 }
 
 .option-box{
-  padding: 10px 0px;
+  padding: 8px 60px;
 }
 
